@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef356e05.css",
+    "main.js": "/static/js/main.b1f4a428.js",
+    "static/media/me_light.png": "/static/media/me_light.02587094a31aa563c4cb.png",
+    "static/media/me_dark.png": "/static/media/me_dark.2ed87b7a7e93a3e5af74.png",
+    "static/media/marvel-starter.jpg": "/static/media/marvel-starter.02baf477fe37961b99c3.jpg",
+    "static/media/Verdana.eot": "/static/media/Verdana.8ff50b17b89a6cb99382.eot",
+    "static/media/Verdana.ttf": "/static/media/Verdana.06356c47838279a6fe85.ttf",
+    "static/media/Georgia.eot": "/static/media/Georgia.03ef6ebbb48b069a0a4f.eot",
+    "static/media/Georgia.ttf": "/static/media/Georgia.10ddf155946936f2cb7d.ttf",
+    "static/media/Georgia-Bold.eot": "/static/media/Georgia-Bold.b456a6d552c6a8fcf713.eot",
+    "static/media/Georgia-Bold.ttf": "/static/media/Georgia-Bold.b753d9431ad323d2f777.ttf",
+    "static/media/Verdana.woff": "/static/media/Verdana.515dad1f544c656e9b84.woff",
+    "static/media/Georgia.woff": "/static/media/Georgia.42f5aead7c805735fc82.woff",
+    "static/media/Georgia-Bold.woff": "/static/media/Georgia-Bold.266ae4195228324a2b6c.woff",
+    "static/media/computer_dark.png": "/static/media/computer_dark.ef5666b560d541c219a7.png",
+    "static/media/computer_light.png": "/static/media/computer_light.55f66c9248bcc770d3c3.png",
+    "static/media/sun.svg": "/static/media/sun.51393a375a81e44f27f1e33d713ca0ae.svg",
+    "static/media/moon.svg": "/static/media/moon.bcb49a365fa5648b3f4459a884cb216e.svg",
+    "index.html": "/index.html",
+    "main.ef356e05.css.map": "/static/css/main.ef356e05.css.map",
+    "main.b1f4a428.js.map": "/static/js/main.b1f4a428.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef356e05.css",
+    "static/js/main.b1f4a428.js"
+  ]
+}
