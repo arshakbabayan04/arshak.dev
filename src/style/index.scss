@@ -1,0 +1,74 @@
+@import './variables.scss';
+
+* {
+	transition: all 1s;
+}
+
+html {
+  	font-family: 'Georgia_1', sans-serif;
+}
+
+svg {
+	@include themed() {
+        fill: t('icons')
+    }
+}
+
+.container {
+	position: relative;
+  	width: 1160px;
+	margin: 0 auto;
+
+	@media (max-width: 1200px) {
+		width: 944px;
+	}
+
+	@media (max-width: 1023px) {
+		width: 708px;
+	}
+
+	@media (max-width: 767px) {
+		width: 540px;
+	}
+
+	@media (max-width: 575px) {
+		width: 300px;
+	}
+} 
+
+.section_header {
+	@include themed() {
+        color: t('custom_green')
+    }
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.6;
+	@media (max-width: 575px) {
+		font-size: 20px;
+	}
+}
+
+.subheader {
+	@include themed() {
+        color: t('text_darkmode')
+    }
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 1.2;
+	@media (max-width: 575px) {
+		font-size: 32px;
+	}
+}
+
+.descr {
+	@include themed() {
+        color: t('text_darkmode')
+    }
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}

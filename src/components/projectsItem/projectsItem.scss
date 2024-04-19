@@ -1,0 +1,109 @@
+@import '../../style/variables.scss';
+
+.project_wrapper {
+    max-width: 962px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 97px;
+    margin-bottom: 100px;
+
+    @media (max-width: 1200px) {
+        max-width: 873px;
+    }
+
+    @media (max-width: 1023px) {
+        max-width: 466px;
+        height: 630px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media (max-width: 575px) {
+        max-width: 333px;
+        height: 477px;
+    }
+}
+
+.project {
+    &_text {
+        max-width: 333px;
+        text-align: center;
+        &_descr {
+            margin-top: 15px;
+            text-align: center;
+            opacity: 0.8;
+            @media (max-width: 575px) {
+               margin-top: 5px;
+            }
+        }
+        &_stack {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            column-gap: 30px;
+            flex-wrap: wrap;
+            &_item {
+                @include themed() {
+                    color: t('text_darkmode')
+                }
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 1.6;
+            }
+        }
+        &_btn_block {
+            margin-top: 26px;
+            display: flex;
+            justify-content: center;
+            column-gap: 27px;
+        }
+        &_btn {
+            display: inline-block;
+            padding: 7px 20px 6px 20px;
+            border: 1px solid #0DD55A;
+            border-radius: 15px;
+        }
+        &_btn a {
+            @include themed() {
+                color: t('text_darkmode')
+            }
+            display: flex;
+            column-gap: 5px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.1;
+        }
+
+        @media (max-width: 1023px) {
+            margin-top: 28px;
+        }
+        @media (max-width: 575px) {
+            max-width: 302px;
+            margin-top: 26px;
+        }
+    }
+    &_img {
+        max-width: 466px;
+        border-radius: 30px;
+        box-shadow: #0DD55A 0px 0px 250px -50px;
+        @media (max-width: 1200px) {
+            max-width: 410px;
+        }
+        @media (max-width: 575px) {
+            max-width: 260px;
+            border-radius: 15px;
+        }
+    }
+    &_img img{
+        height: 300px;
+        border-radius: 30px;
+        @media (max-width: 575px) {
+            height: 167px;
+            border-radius: 15px;
+        }
+    }
+}
